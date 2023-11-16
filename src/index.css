@@ -1,3 +1,31 @@
-html {
+* {
+    box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    align-items: center;
+    background-color: #21222A;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.navbar-left {
+    align-items: center;
+    color: #61DAFB;
+    display: flex;
+}
+
+.navbar-right {
+    color: #DEEBF8;
+}
+
+#react-logo {
+    margin-right: 10px;
+    width: 60px;
 }
