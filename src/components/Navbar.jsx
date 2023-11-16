@@ -3,7 +3,7 @@ import reactLogo from '../assets/react-icon-small.png'
 
 export default function Navbar() {
     return (
-        <navbar className='navbar'>
+        <nav className='navbar'>
             <div className='navbar-left'>
                 <img src={reactLogo} id='react-logo'/>
                 <h1>React Facts</h1>
@@ -11,6 +11,6 @@ export default function Navbar() {
             <div className='navbar-right'>
                 <h3>React Course - Project 1</h3>
             </div>
-        </navbar>
+        </nav>
     )
 }
